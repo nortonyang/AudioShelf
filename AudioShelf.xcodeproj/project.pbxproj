@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* AudioShelfApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000001 /* AudioShelfApp.swift */; };
+		A10000000000000000000002 /* Audiobook.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000002 /* Audiobook.swift */; };
+		A10000000000000000000003 /* Chapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000003 /* Chapter.swift */; };
+		A10000000000000000000004 /* PlaybackRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000004 /* PlaybackRecord.swift */; };
+		A10000000000000000000005 /* BookmarkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000005 /* BookmarkService.swift */; };
+		A10000000000000000000006 /* MetadataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000006 /* MetadataService.swift */; };
+		A10000000000000000000007 /* LibraryImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000007 /* LibraryImporter.swift */; };
+		A10000000000000000000008 /* PlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000008 /* PlayerController.swift */; };
+		A10000000000000000000009 /* CoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000009 /* CoverView.swift */; };
+		A1000000000000000000000A /* BookGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000A /* BookGridView.swift */; };
+		A1000000000000000000000B /* BookDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000B /* BookDetailView.swift */; };
+		A1000000000000000000000C /* HistoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000C /* HistoryListView.swift */; };
+		A1000000000000000000000D /* PlayerBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000D /* PlayerBar.swift */; };
+		A1000000000000000000000E /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000E /* LibraryView.swift */; };
+		A1000000000000000000000F /* NaturalSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000F /* NaturalSort.swift */; };
+		A10000000000000000000010 /* TimeFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000010 /* TimeFormatting.swift */; };
+		A10000000000000000000011 /* LibraryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000013 /* LibraryStore.swift */; };
+		A10000000000000000000012 /* PDFMatching.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000014 /* PDFMatching.swift */; };
+		A10000000000000000000013 /* PDFService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000015 /* PDFService.swift */; };
+		A10000000000000000000014 /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000016 /* AppIcon.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B10000000000000000000001 /* AudioShelfApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioShelfApp.swift; sourceTree = "<group>"; };
+		B10000000000000000000002 /* Audiobook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audiobook.swift; sourceTree = "<group>"; };
+		B10000000000000000000003 /* Chapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter.swift; sourceTree = "<group>"; };
+		B10000000000000000000004 /* PlaybackRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackRecord.swift; sourceTree = "<group>"; };
+		B10000000000000000000005 /* BookmarkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkService.swift; sourceTree = "<group>"; };
+		B10000000000000000000006 /* MetadataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetadataService.swift; sourceTree = "<group>"; };
+		B10000000000000000000007 /* LibraryImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryImporter.swift; sourceTree = "<group>"; };
+		B10000000000000000000008 /* PlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerController.swift; sourceTree = "<group>"; };
+		B10000000000000000000009 /* CoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000A /* BookGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookGridView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000B /* BookDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000C /* HistoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryListView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000D /* PlayerBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerBar.swift; sourceTree = "<group>"; };
+		B1000000000000000000000E /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000F /* NaturalSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaturalSort.swift; sourceTree = "<group>"; };
+		B10000000000000000000010 /* TimeFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFormatting.swift; sourceTree = "<group>"; };
+		B10000000000000000000011 /* AudioShelf.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AudioShelf.entitlements; sourceTree = "<group>"; };
+		B10000000000000000000012 /* AudioShelf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioShelf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10000000000000000000013 /* LibraryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryStore.swift; sourceTree = "<group>"; };
+		B10000000000000000000014 /* PDFMatching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFMatching.swift; sourceTree = "<group>"; };
+		B10000000000000000000015 /* PDFService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFService.swift; sourceTree = "<group>"; };
+		B10000000000000000000016 /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D10000000000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C10000000000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				C10000000000000000000002 /* AudioShelf */,
+				C10000000000000000000007 /* AudioShelfCore */,
+				C10000000000000000000008 /* Resources */,
+				C10000000000000000000001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C10000000000000000000001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000012 /* AudioShelf.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C10000000000000000000002 /* AudioShelf */ = {
+			isa = PBXGroup;
+			children = (
+				C10000000000000000000003 /* App */,
+				C10000000000000000000004 /* Models */,
+				C10000000000000000000005 /* Services */,
+				C10000000000000000000006 /* Views */,
+				B10000000000000000000011 /* AudioShelf.entitlements */,
+			);
+			path = AudioShelf;
+			sourceTree = "<group>";
+		};
+		C10000000000000000000003 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000001 /* AudioShelfApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C10000000000000000000004 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000002 /* Audiobook.swift */,
+				B10000000000000000000003 /* Chapter.swift */,
+				B10000000000000000000004 /* PlaybackRecord.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C10000000000000000000005 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000005 /* BookmarkService.swift */,
+				B10000000000000000000006 /* MetadataService.swift */,
+				B10000000000000000000007 /* LibraryImporter.swift */,
+				B10000000000000000000008 /* PlayerController.swift */,
+				B10000000000000000000013 /* LibraryStore.swift */,
+				B10000000000000000000015 /* PDFService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C10000000000000000000006 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000009 /* CoverView.swift */,
+				B1000000000000000000000A /* BookGridView.swift */,
+				B1000000000000000000000B /* BookDetailView.swift */,
+				B1000000000000000000000C /* HistoryListView.swift */,
+				B1000000000000000000000D /* PlayerBar.swift */,
+				B1000000000000000000000E /* LibraryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C10000000000000000000007 /* AudioShelfCore */ = {
+			isa = PBXGroup;
+			children = (
+				B1000000000000000000000F /* NaturalSort.swift */,
+				B10000000000000000000010 /* TimeFormatting.swift */,
+				B10000000000000000000014 /* PDFMatching.swift */,
+			);
+			path = AudioShelfCore;
+			sourceTree = "<group>";
+		};
+		C10000000000000000000008 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000016 /* AppIcon.icns */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E10000000000000000000001 /* AudioShelf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = H10000000000000000000002 /* Build configuration list for PBXNativeTarget "AudioShelf" */;
+			buildPhases = (
+				D10000000000000000000001 /* Sources */,
+				D10000000000000000000002 /* Frameworks */,
+				D10000000000000000000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioShelf;
+			productName = AudioShelf;
+			productReference = B10000000000000000000012 /* AudioShelf.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F10000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					E10000000000000000000001 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = H10000000000000000000001 /* Build configuration list for PBXProject "AudioShelf" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = zh_Hans;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				zh_Hans,
+			);
+			mainGroup = C10000000000000000000000;
+			productRefGroup = C10000000000000000000001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E10000000000000000000001 /* AudioShelf */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D10000000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000014 /* AppIcon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D10000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000001 /* AudioShelfApp.swift in Sources */,
+				A10000000000000000000002 /* Audiobook.swift in Sources */,
+				A10000000000000000000003 /* Chapter.swift in Sources */,
+				A10000000000000000000004 /* PlaybackRecord.swift in Sources */,
+				A10000000000000000000005 /* BookmarkService.swift in Sources */,
+				A10000000000000000000006 /* MetadataService.swift in Sources */,
+				A10000000000000000000007 /* LibraryImporter.swift in Sources */,
+				A10000000000000000000008 /* PlayerController.swift in Sources */,
+				A10000000000000000000009 /* CoverView.swift in Sources */,
+				A1000000000000000000000A /* BookGridView.swift in Sources */,
+				A1000000000000000000000B /* BookDetailView.swift in Sources */,
+				A1000000000000000000000C /* HistoryListView.swift in Sources */,
+				A1000000000000000000000D /* PlayerBar.swift in Sources */,
+				A1000000000000000000000E /* LibraryView.swift in Sources */,
+				A1000000000000000000000F /* NaturalSort.swift in Sources */,
+				A10000000000000000000010 /* TimeFormatting.swift in Sources */,
+				A10000000000000000000011 /* LibraryStore.swift in Sources */,
+				A10000000000000000000012 /* PDFMatching.swift in Sources */,
+				A10000000000000000000013 /* PDFService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		G10000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		G10000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+		};
+			name = Release;
+		};
+		G10000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AudioShelf/AudioShelf.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AudioShelf;
+				INFOPLIST_KEY_CFBundleIconFile = AppIcon;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AudioShelf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		G10000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AudioShelf/AudioShelf.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AudioShelf;
+				INFOPLIST_KEY_CFBundleIconFile = AppIcon;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AudioShelf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		H10000000000000000000001 /* Build configuration list for PBXProject "AudioShelf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				G10000000000000000000001 /* Debug */,
+				G10000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		H10000000000000000000002 /* Build configuration list for PBXNativeTarget "AudioShelf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				G10000000000000000000003 /* Debug */,
+				G10000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F10000000000000000000001 /* Project object */;
+}
