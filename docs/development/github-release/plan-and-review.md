@@ -11,7 +11,7 @@
 - 开发审核文档中的运行进程号和真实导入样本细节已改为中性验证描述。
 - `.build/`、`dist/`、`logs/`、IDE 用户状态、常见音频/PDF 和本地资料库文件均已忽略。
 - 两轮隐私扫描未发现邮箱、密钥、Token、私钥、私有 IP、个人用户名或用户目录绝对路径。
-- GitHub CLI 已安装，发布前仍需完成 GitHub 登录授权。
+- GitHub CLI 登录已完成，私有 `AudioShelf` 仓库已创建，`main` 分支已推送并建立跟踪关系。
 
 ## 范围与非目标
 
@@ -30,7 +30,7 @@
 | S1 图标 | AT-101 | US-101：作为用户，我希望 AudioShelf 有独特且清晰的应用图标。 | Dock/Finder 不再显示通用图标；`.icns` 包含标准尺寸；无文字、无商标。 | 已完成 |
 | S2 文档 | AT-201 | US-201：作为开发者，我希望 README 能快速说明用途、构建、隐私和限制。 | README 无过时 SwiftData 叙述；命令可执行；隐私边界明确。 | 已完成 |
 | S3 隐私 | AT-301 | US-301：作为仓库所有者，我希望公开源码不携带个人数据。 | 两轮敏感信息扫描通过；Git 索引不含构建物、日志或用户内容。 | 已完成 |
-| S4 发布 | AT-401 | US-401：作为仓库所有者，我希望源码进入一个新的 GitHub 仓库。 | 本地提交成功；远端仓库为私有；默认分支推送成功；远端状态干净。 | 进行中 |
+| S4 发布 | AT-401 | US-401：作为仓库所有者，我希望源码进入一个新的 GitHub 仓库。 | 本地提交成功；远端仓库为私有；默认分支推送成功；远端状态干净。 | 已完成 |
 
 ## 具体开发方案
 
@@ -39,8 +39,8 @@
 | 1 | ImageGen 生成并检查图标底图 | Codex（用户直接要求开发） | `Resources/AppIcon-source.png` | 图像检查 | 已完成 |
 | 2 | 生成 `.icns` 并接入 App bundle | Codex | `Resources/AppIcon.icns`、Info.plist、build script | iconutil、plutil、构建、Finder/Dock | 已完成 |
 | 3 | 重写 README 和清理隐私痕迹 | Codex | README、`.gitignore`、开发文档 | rg 扫描、tracked-files 审核 | 已完成 |
-| 4 | 完整测试、Git 初始化和本地提交 | Codex | 全仓 | checks、build、codesign、git status | 进行中 |
-| 5 | GitHub 登录、建私有仓库并推送 | Codex + 用户授权 | GitHub | gh repo view、git remote/status | 进行中 |
+| 4 | 完整测试、Git 初始化和本地提交 | Codex | 全仓 | checks、build、codesign、git status | 已完成 |
+| 5 | GitHub 登录、建私有仓库并推送 | Codex + 用户授权 | GitHub | gh repo view、git remote/status | 已完成 |
 
 ## 风险与缓解
 
@@ -66,6 +66,6 @@
 
 ## Codex 审核记录
 
-- 状态：本地实现与验证完成，等待 GitHub 发布。
+- 状态：已完成。
 - 审核重点：图标清晰度、README 准确性、隐私扫描完整性和远端仓库可见性。
-- 验证结果：完整检查、Release 构建、Info.plist、1024px 图标表示、ICNS 反向解包、严格签名和沙盒权限检查均通过；隐私扫描无发现。
+- 验证结果：完整检查、Release 构建、Info.plist、1024px 图标表示、ICNS 反向解包、严格签名和沙盒权限检查均通过；隐私扫描无发现；远端仓库为私有，`main` 已推送且工作区干净。
